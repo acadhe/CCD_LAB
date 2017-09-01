@@ -6,11 +6,9 @@ Primary style
 *, *::after, *::before {
   box-sizing: border-box;
 }
-
 html {
   font-size: 62.5%;
 }
-
 body {
   font-size: 1.6rem;
   font-family: "Sintony", sans-serif;
@@ -18,14 +16,11 @@ body {
   background-color: #3a2c41;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: hidden;
 }
-
 a {
   color: #c0a672;
   text-decoration: none;
 }
-
 .cd-image-replace {
   /* replace text with image */
   display: inline-block;
@@ -34,7 +29,6 @@ a {
   white-space: nowrap;
   color: transparent;
 }
-
 /* -------------------------------- 
 
 Navigation trigger - visible on small devices only
@@ -601,6 +595,7 @@ Content Sections - basic style
 
 #section2 {
   background-color: black;
+  height: 500px;
 }
 
 #fase #video {
